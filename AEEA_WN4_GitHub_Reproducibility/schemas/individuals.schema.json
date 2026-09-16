@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/aeea/schemas/individuals.schema.json",
+  "title": "AEEA LLM-generated candidate population",
+  "type": "object",
+  "required": ["individuals"],
+  "additionalProperties": false,
+  "properties": {
+    "individuals": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "采购供应商选择",
+          "产品内部的部装工序顺序",
+          "部装工序顺序列表",
+          "部装机器选择列表",
+          "总装工序顺序列表",
+          "总装机器选择列表"
+        ],
+        "properties": {
+          "采购供应商选择": {
+            "type": "array",
+            "items": {"type": "integer", "minimum": 0}
+          },
+          "产品内部的部装工序顺序": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {"type": ["string", "integer"]}
+            }
+          },
+          "部装工序顺序列表": {
+            "type": "array",
+            "items": {"type": "integer", "minimum": 0}
+          },
+          "部装机器选择列表": {
+            "type": "array",
+            "items": {"type": "integer", "minimum": 0}
+          },
+          "总装工序顺序列表": {
+            "type": "array",
+            "items": {"type": "integer", "minimum": 0}
+          },
+          "总装机器选择列表": {
+            "type": "array",
+            "items": {"type": "integer", "minimum": 0}
+          }
+        }
+      }
+    }
+  }
+}

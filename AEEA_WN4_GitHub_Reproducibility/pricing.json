@@ -1,0 +1,12 @@
+{
+  "verified_for_experiment_access_date": false,
+  "currency": "USD",
+  "unit": "per_1m_tokens",
+  "model": "deepseek-reasoner",
+  "effective_date": null,
+  "input_cache_hit_usd_per_million": null,
+  "input_cache_miss_usd_per_million": null,
+  "output_usd_per_million": null,
+  "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+  "note": "Fill the prices that applied on the actual experiment access date, then set verified_for_experiment_access_date to true. API cost will otherwise be reported as unavailable rather than fabricated."
+}
