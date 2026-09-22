@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "name": "Random18_Logs.zip.part001",
+      "bytes": 24000000,
+      "sha256": "7c93c0f3809a1e728ed9428944dfeecec3edc73aa50f90aac8869dd9ec3b805d"
+    },
+    {
+      "name": "Random18_Logs.zip.part002",
+      "bytes": 24000000,
+      "sha256": "80dcadb02aecc7bcf3c48ad454ec3f027d05aa224f0d8feeb3d25dffe699e0ca"
+    },
+    {
+      "name": "Random18_Logs.zip.part003",
+      "bytes": 24000000,
+      "sha256": "9195747b51e46cd7d20c5d29fd304001ea2ecf9d851aab384201608a97e82bc8"
+    },
+    {
+      "name": "Random18_Logs.zip.part004",
+      "bytes": 1182877,
+      "sha256": "b855a6278f228c604b07855b446ee967294555b07ef56479b93ec9780a14ad4c"
+    }
+  ],
+  "combined_sha256": "fc9bb84566cc217898ab55f8fd78f6d27b2f92b70e589907587db41edca56238"
+}
